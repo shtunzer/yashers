@@ -150,3 +150,27 @@ button{
 .aboutUs-img{
     max-height: 577px;
 }
+
+/* GALERY */
+
+.galery{
+    background: #000;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.galery__inner{
+    padding: 0 100px;
+}
+
+.galery-title{
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.swiper-slide-img{
+    height: 600px;
+    width: 1020px;
+}
