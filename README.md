@@ -1,4 +1,4 @@
 # Yashers
 
   - For portfolio.
-  - Adaptive to 350px
+  - Adaptive to 350px.
