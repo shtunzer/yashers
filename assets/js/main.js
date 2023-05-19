@@ -12,3 +12,10 @@ var aboutUs = document.querySelector('#aboutUs');
 button1.addEventListener('click' , () => {
 scrollTo(aboutUs);
 });
+
+var swiper = new Swiper(".galery__swiper", {
+    navigation: {
+      nextEl: ".galery__swiper-button-next",
+      prevEl: ".galery__swiper-button-prev",
+    },
+  });
