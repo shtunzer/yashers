@@ -126,3 +126,26 @@ button{
     padding: 100px 0;
     color: #fff;
 }
+
+.aboutUs__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.aboutUs__textBox-title{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.aboutUs__textBox-text{
+    font-size: 16px;
+    max-width: 506px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.aboutUs-img{
+    max-height: 577px;
+}
