@@ -173,4 +173,28 @@ button{
 .swiper-slide-img{
     height: 600px;
     width: 1020px;
+    display: block;
+}
+
+.galery__swiper-button-next,
+.galery__swiper-button-prev{
+    width: 50px;
+    height: 32px;
+    cursor: pointer;
+    z-index: 5;
+    position: relative;
+}
+
+.galery__swiper-button-next{
+    background: url(../images/next.svg);
+}
+
+.galery__swiper-button-prev{
+    background: url(../images/prev.svg);
+}
+
+.galery__swiper-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px 0;
 }
