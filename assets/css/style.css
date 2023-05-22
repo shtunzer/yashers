@@ -14,6 +14,10 @@ html,body{
     font-family: 'Montserrat', sans-serif;
 }
 
+body{
+    background: #000;
+}
+
 .container{
     max-width: 1240px;
     padding: 0 10px;
@@ -197,4 +201,67 @@ button{
     display: flex;
     justify-content: space-between;
     padding: 30px 50px 0;
+}
+
+/* VIDEOS */
+
+.videos{
+    background: url(../images/bg2.webp);
+    background-size: cover;
+    padding: 100px 0;
+    color: #fff;
+}
+
+.videos-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.videos-slide{
+    display: flex;
+    justify-content: space-between;
+}
+
+.videos-transition{
+    margin-top: -50px;
+    width: 100%;
+    height: auto;
+}
+
+.videos-slide-text{
+    line-height: 160%;
+    width: 410px;
+}
+
+/* CONTROL */
+
+.control{
+    background: #000;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.control-title{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.control-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
+}
+
+/* MAP */
+
+.map{
+    padding: 100px 0;
+}
+
+.map-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 2px solid #fff;
 }
